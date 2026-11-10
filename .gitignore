@@ -1,0 +1,27 @@
+# Build output
+[Bb]in/
+[Oo]bj/
+[Ll]og/
+[Ll]ogs/
+publish/
+*.pdb
+*.user
+
+# Visual Studio / Rider
+.vs/
+.idea/
+*.suo
+*.userosscache
+*.sln.docstates
+*.DotSettings.user
+
+# OS / temporary files
+Thumbs.db
+desktop.ini
+.DS_Store
+
+# Local settings / secrets
+*.local.json
+.env
+.env.*
+!.env.example
